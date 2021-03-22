@@ -1,0 +1,24 @@
+{
+    "name": "helloworld/module-sales-sequence",
+    "description": "Extension change format IncrementID for orders, invoices, creditmemos and shipments.",
+    "type": "magento2-module",
+    "version": "2.3.1",
+    "authors": [{
+        "name": "Jyotiranjan Behera",
+        "email": "jyotiranjan@tech3.io"
+    }],
+    "license": [
+        "OSL-3.0"
+    ],
+    "require": {
+        "magento/module-sales-sequence": "100.3.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php" 
+        ],
+        "psr-4": {
+            "Helloworld\\SalesSequence\\": ""
+        }
+    }
+}
