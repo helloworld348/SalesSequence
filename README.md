@@ -40,14 +40,3 @@ In the Magento Admin Panel go to *Stores > Sequence Profiles*.
 Custom Order Number
 
 <img alt="Magento2 Custom Order Number" src="https://github.com/helloworld348/SalesSequence/blob/main/Screenshot/sales-sequence-order.PNG" style="width:100%"/>	
-
-### Completion of uninstall
-
-1. Go to Magento2 root folder
-
-2. Enter following commands:
-
-    ```bash
-    php bin/magento setup:upgrade
-    php bin/magento setup:di:compile
-    php bin/magento setup:static-content:deploy  (optional)
